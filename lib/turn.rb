@@ -35,4 +35,5 @@ def turn(input,index)
   input=gets.chomp 
    input_to_index(input)
    valid_move?(board,index)
+   binding.pry 
 end 
