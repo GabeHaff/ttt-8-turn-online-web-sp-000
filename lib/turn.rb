@@ -38,7 +38,7 @@ def turn(board)
 if valid_move?(board,input)== true 
   move(board,input)
   display_board(board)
-else turn(input)
+else turn(board)
 end 
 end 
 
