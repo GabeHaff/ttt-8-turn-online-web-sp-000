@@ -36,10 +36,8 @@ def turn(input)
   input=gets.chomp 
    input_to_index(input)
 if valid_move?(board,input)== true 
+  move()
 end 
-
-
-
 
 def move(display_board, index, character="X")
 display_board[index]=character
