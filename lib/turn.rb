@@ -1,4 +1,4 @@
-require pry 
+
 def display_board(board)
   puts " #{board[0]} | #{board[1]} | #{board[2]} "
   puts "-----------"
@@ -36,5 +36,5 @@ def turn(input,index)
   input=gets.chomp 
    input_to_index(input)
    valid_move?(board,index)
-   binding.pry 
+  
 end 
