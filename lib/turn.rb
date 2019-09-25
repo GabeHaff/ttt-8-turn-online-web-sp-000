@@ -38,3 +38,10 @@ def turn(input)
 if valid_move?(board,input)== true 
 end 
 
+
+
+
+def move(display_board, index, character="X")
+display_board[index]=character
+end
+
