@@ -30,7 +30,7 @@ def valid_move?(board,index)
 end 
 end 
 
-def turn(input)
+def turn(input,index)
   puts "Please enter 1-9:"
   input=gets.chomp 
    input_to_index(input)
